@@ -3,14 +3,12 @@
   - index.html
   - .gitignore
   - main.css (bet ne butinai vienintelis)
-- [ ] paviesinti projekta per Github Pages (gausim URL)
-- [ ] README.md
 - [x] paviesinti projekta per Github Pages (gausim URL)
 - [x] README.md
   - skirta aprasyti kas, ka ir kodel daro
   - iterpti nuoroda i daroma dizaina
   - iterpti nuoroda, kur tas musu kodas gali buti pamatytas
-- [ ] atlikti dizaino analize
+- [x] atlikti dizaino analize
 - [ ] surasyti HTML
 - [ ] issikirpti nuotraukas ir jas panaudoti
   - panaudoti reliatyvu kelia
