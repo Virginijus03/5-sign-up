@@ -14,41 +14,55 @@ body {
 .container {
     display: inline-block;
     width: 800px;
-    margin-left: calc((100% - 800px) / 2);
     margin: 100px calc((100% - 800px) / 2) 0;
 }
 
-.left-colum {
+.left-column {
     width: 40%;
     float: left;
     padding: 40px;
     background-color: #4c46a5; 
     color: #fff;
+    background-image: url(../img/Sing\ Up.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .main-title {
     
 }
-.button-links {
+.bottom-links {
+   
 
 }
 
-.button-links> a {
+.bottom-links> a {
     color: #fff;
-
-}
-.button-links> span {
-
+   
 }
 
-.right-colum {
+.bottom-links> span {
+
+}
+
+.right-column {
     width: 60%;
     padding: 60px ;
     float: left;
     background-color: white;
+    position: relative;
 
 }
 .close {
-    
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align:center;
+    font-size: 30px;
+    line-height: 54px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 .form {
     display: inline-block;
@@ -64,7 +78,6 @@ body {
 
 }
 
-
 label {
     display: inline-block;
     width: 100%;
@@ -74,6 +87,7 @@ label {
     line-height: 15px;
     color: #ccc;
 }
+
 input {
     display: inline-block;
     width: 100%;
@@ -83,6 +97,7 @@ input {
     border-bottom: 1px solid #999 ;
 
 }
+
 button {
     float: left;
     padding: 10px 40px;
