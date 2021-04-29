@@ -83,51 +83,6 @@ body {
     top: 0;
     right: 0;
 }
-.form {
-    display: inline-block;
-    width: 100%;
-}
-.form-row {
-    display: inline-block;
-    width: 100%;
-    
-}
-.form-row + .form-row {
-    margin-top: 40px;
-
-}
-
-label {
-    display: inline-block;
-    width: 100%;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 15px;
-    color: #ccc;
-}
-
-input {
-    display: inline-block;
-    width: 100%;
-    font-size: 20px;
-    line-height: 1.8em;
-    border: none;
-    border-bottom: 1px solid #999 ;
-
-}
-
-button {
-    float: left;
-    padding: 10px 40px;
-    font-size: 18px;
-    line-height: 20px;
-    border-radius: 21px;
-    border: 1px solid rgb(76, 76, 211);
-    background-color: blue; 
-    color: #fff;
-
-}
 
 .form-row > span {
     float: left;
@@ -141,5 +96,8 @@ button {
     text-decoration: none;
     padding: 11px;
     line-height: 20px;
-
+}
+.form-row > a:hover{
+    color: red;
+    text-decoration: underline;
 }
