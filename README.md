@@ -25,4 +25,4 @@ Design:
 
 ## Authors
 
-[Virginijus](https://github.com/Virginijus03/5-sign-up)
+[Virginijus](https://github.com/Virginijus03)
